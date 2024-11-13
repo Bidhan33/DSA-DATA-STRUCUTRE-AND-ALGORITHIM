@@ -50,3 +50,52 @@ stack.push(v);
 function addEdge(v,w) { 
 this.adj[v].push(w); 
 this.adj[w].push(v);
+
+  this.edges++; 
+} 
+/*function showGraph() { 
+for (var i = 0; i < this.vertices; ++i) { 
+putstr(i + " -> "); 
+for (var j = 0; j < this.vertices; ++j) { 
+if (this.adj[i][j] != undefined) 
+putstr(this.adj[i][j] + ' '); 
+} 
+print(); 
+} 
+}*/ 
+// a new function to display symbolic names instead of numbers 
+function showGraph() { 
+var visited = []; 
+for (var i = 0; i < this.vertices; ++i) { 
+putstr(this.vertexList[i] + " -> "); 
+visited.push(this.vertexList[i]); 
+for (var j = 0; j < this.vertices; ++j) { 
+if (this.adj[i][j] != undefined) { 
+if (visited.indexOf(this.vertexList[j]) < 0) { 
+putstr(this.vertexList[j] + ' '); 
+} 
+} 
+} 
+print(); 
+visited.pop(); 
+} 
+} 
+function dfs(v) { 
+this.marked[v] = true; 
+if (this.adj[v] != undefined) { 
+print("Visited vertex: " + v); 
+} 
+for each (var w in this.adj[v]) { 
+if (!this.marked[w]) { 
+this.dfs(w); 
+} 
+} 
+} 
+function bfs(s) { 
+var queue = []; 
+this.marked[s] = true; 
+queue.unshift(s); 
+while (queue.length > 0) { 
+var v = queue.shift(); 
+if (typeof(v) != "string") { 
+print("Visited vertex: " + v); 
