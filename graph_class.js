@@ -99,3 +99,30 @@ while (queue.length > 0) {
 var v = queue.shift(); 
 if (typeof(v) != "string") { 
 print("Visited vertex: " + v); 
+
+
+  } 
+for each (var w in this.adj[v]) { 
+if (!this.marked[w]) { 
+this.edgeTo[w] = v; 
+this.marked[w] = true; 
+queue.unshift(w); 
+} 
+} 
+} 
+} 
+function hasPathTo(v) { 
+return this.marked[v]; 
+} 
+function pathTo(v) { 
+var source = 0; 
+if (!this.hasPathTo(v)) { 
+return undefined; 
+} 
+var path = []; 
+for (var i = v; i != source; i = this.edgeTo[i]) { 
+path.push(i); 
+} 
+path.push(s); 
+return path; 
+}
