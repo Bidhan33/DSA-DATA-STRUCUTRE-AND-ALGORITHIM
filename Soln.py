@@ -1,4 +1,4 @@
-# Function to print element and NGE pair for all elements of list
+
 def printNGE(arr):
 
     for i in range(0, len(arr), 1):
