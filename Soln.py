@@ -16,4 +16,4 @@ def printNGE(arr):
 arr = [11, 13, 21, 3]
 printNGE(arr)
 
-# Soln no 2 py
+# Soln no 2 py   : few questions regarding this 
