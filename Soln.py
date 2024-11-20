@@ -18,5 +18,5 @@ printNGE(arr)
 
 # Soln no 2 py   : few questions regarding this 
 # What value is printed if no greater element exists for an array element?
-How does the inner loop (for j in range(i+1, len(arr), 1)) contribute to finding the next greater element?
-What is the role of the break statement in the code?
+# How does the inner loop (for j in range(i+1, len(arr), 1)) contribute to finding the next greater element?
+ # What is the role of the break statement in the code?
