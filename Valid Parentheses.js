@@ -9,7 +9,7 @@ function ispar(s) {
             stk.push(s[i]);
         } else {
         
-            // If it's a closing bracket, check if the stack is non-empty
+
             // and if the top of the stack is a matching opening bracket
             if (stk.length > 0 &&
                 ((stk[stk.length - 1] === '(' && s[i] === ')') ||
