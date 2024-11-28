@@ -78,7 +78,11 @@ HackerRank: HackerRank
 GeeksforGeeks: GeeksforGeeks
 Competitive Programming Handbook: [Link to resource]
 Contact Information:
-For any questions or issues regarding the repository, feel free to reach out via GitHub Issues or email me at
+For any questions or issues regarding the repository, feel free to reach out via GitHub Issues or email me at demo12demoalterasonicalfa@myy.local-master.io
+
+
+
+
 
 
 Valid Parentheses
