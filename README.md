@@ -1,6 +1,4 @@
-Here’s an example of a **README.md** file you can use for a Data Structures and Algorithms (DSA) document and solution repository on GitHub:
 
----
 
 # 📚 Data Structures and Algorithms (DSA) Guide
 
