@@ -21,6 +21,8 @@ Understanding DSA is crucial for cracking technical interviews and building effi
 - Detailed explanations of fundamental data structures and algorithms.
 - Implementations in multiple programming languages..
 - Solutions to popular DSA problems categorized by topic and difficulty.
+- Bubble Sort
+Bubble Sort is an algorithm that sorts an array from the lowest value to the highest value.
 
 ----
 
