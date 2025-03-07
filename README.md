@@ -2,7 +2,7 @@
 
 # 📚 Data Structures and Algorithms (DSA) Guide java / Python
 
-Welcome to the **Data Structures and Algorithms (DSA)** repository! This repository contains comprehensive documentation and solutions to common DSA problems, aimed at helping learners and professionals enhance their problem-solving skills.
+Welcome to the **Data Structures and Algorithms (DSA)** repository! This repository contains comprehensive documentation and solutions to common DSA problems, aimed at helping learners and professionals enhance their problem-solving skills. I aim to solve DSA questions of java 
 
 ---
 
